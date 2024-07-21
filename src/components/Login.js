@@ -1,4 +1,8 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+// import SignInWithGoogle from './SignInWithGoogle';
+
+import SignInWithGoogle from './signInWithGoogle';
+
 
 export default class Login extends Component {
   render() {
@@ -45,6 +49,7 @@ export default class Login extends Component {
         <p className="forgot-password text-right">
            <a href="#"> Forgot password?</a>
         </p>
+        <SignInWithGoogle />
       </form>
     )
   }
